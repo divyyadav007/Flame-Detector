@@ -30,27 +30,28 @@ pip install opencv-python numpy pygame
 ```
 
 🚀 How to Run
-Download the Code: Save the main Python script (main.py) in a folder.
+**Download the Code**: Save the main Python script (main.py) in a folder.
 
-Add Audio File: Place an audio file named alarm.mp3 in the same folder.
+**Add Audio File**: Place an audio file named alarm.mp3 in the same folder.
 
-Run the Script: Open your terminal or command prompt and run:
+**Run the Script**: Open your terminal or command prompt and run:
 
-Bash
+```Bash
 
 python main.py
-Start: Click the "START DETECTION" button on the window that appears.
+```
+**Start**: Click the "START DETECTION" button on the window that appears.
 
-Exit: Press q to stop the camera and close the application.
+**Exit**: Press q to stop the camera and close the application.
 
-🧠 How It Works
+### 🧠 How It Works
 The system processes the video feed in three steps:
 
-Yellow Mask: It identifies yellow and orange colors in the frame (the outer part of a flame).
+* Yellow Mask: It identifies yellow and orange colors in the frame (the outer part of a flame).
 
-White Mask: It identifies extremely bright/white pixels (the hot core of a flame).
+* White Mask: It identifies extremely bright/white pixels (the hot core of a flame).
 
-Combination Logic: It only triggers the alarm if the White Core is found overlapping or inside the Yellow Area.
+* Combination Logic: It only triggers the alarm if the White Core is found overlapping or inside the Yellow Area.
 
 👨‍💻 Author
 Divyanshu Yadav B.Tech (CSE - AI)
