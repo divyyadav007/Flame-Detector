@@ -29,7 +29,7 @@ Before running the script, ensure you have Python installed. Then, install the r
 pip install opencv-python numpy pygame
 
 
-### 🚀 How to Run
+🚀 How to Run
 Download the Code: Save the main Python script in a folder.
 
 Add Audio File: Place an audio file named alarm.mp3 in the same folder.
