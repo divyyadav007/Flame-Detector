@@ -17,20 +17,20 @@ Unlike simple color detectors that trigger on any yellow object, this system use
 ### 🛠️ Tech Stack
 * **Language:** Python
 * **Libraries:**
-    * `OpenCV` (Computer Vision)
-    * `NumPy` (Data processing)
-    * `Pygame` (Audio playback)
-    * `Tkinter` (GUI)
+  * `OpenCV` (Computer Vision)
+  * `NumPy` (Data processing)
+  * `Pygame` (Audio playback)
+  * `Tkinter` (GUI)
 
 ### ⚙️ Prerequisites
 Before running the script, ensure you have Python installed. Then, install the required libraries using pip:
 
 ```bash
 pip install opencv-python numpy pygame
-
+```
 
 🚀 How to Run
-Download the Code: Save the main Python script in a folder.
+Download the Code: Save the main Python script (main.py) in a folder.
 
 Add Audio File: Place an audio file named alarm.mp3 in the same folder.
 
@@ -54,3 +54,4 @@ Combination Logic: It only triggers the alarm if the White Core is found overlap
 
 👨‍💻 Author
 Divyanshu Yadav B.Tech (CSE - AI)
+
